@@ -1,0 +1,25 @@
+# Crear repositorio
+
+## Opcion1 Crear repositorio local
+cd al directorio
+git init
+	-Esto crea el directorio .git
+	Ya es un repositorio git
+
+Ahora hace falta al menos un commit. Ejemplo con el fichero README.md
+
+git add README.md
+git commit -m "first commit"
+
+Lo siguiente es decir que repositorio remoto voy a usar (origin).
+git remote add origin git@github.com....
+git push -u origin master
+Vamos a subir la rama actual, master por defecto al remoto. "-u" indica que es la rama principal
+git push -u origin master
+git clone git@github.com:...
+
+git fetch Compara el repositorio local con el master
+(git status)
+git pull (git fetch + git merge)
+Copia a directorio local el contenido de master
+
