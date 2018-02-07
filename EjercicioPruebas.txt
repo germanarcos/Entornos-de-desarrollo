@@ -1,0 +1,26 @@
+Diseña la clase TragaBolas que tiene los siguientes atributos y métodos:
+TragaBolas
+- bolasComidas: Integer. Número de bolas que ha comido hasta el momento.
+- maxBolas: Integer. La cantidad máxima de bolas que puede comer.
++ TragaBolas(int, int): Constructor donde se pasa el número inicial de 
+bolas y el máximo de bolas;
++ getBolas(): Devuelve el número de bolas.
++ comer(): sólo puede comer si bolasComidas es menor que maxBolas, 
+esta acción sumará 1 a bolasComidas y mostrará devolverá el String 
+"He comido una bola". 
++ trotar(): sólo puede trotar si bolasComidas es mayor o igual que 1, 
+esta acción restará 1 de bolasComidas y devolverá el String 
+"Estoy trotando".
++ dormir(): sólo puede dormir si bolasComidas es igual a maxBolas. 
+Devolverá el String “Tripa llena. ZZZZZZ” y rebajará bolasComidas 
+a la mitad. Si no cumple la condición para poder dormir devolverá el
+String “No quiero dormir”.
+
+Ejercicios:
+- Analizar cada método de acuerdo a las pruebas de camino básico. 
+ Calcular la complejidad ciclomática y plantear casos de prueba.
+- Analizar cada método desde un punto de vista de caja negra:
+	- Usa clases de equivalencia
+	- Usa valores límite
+	- Plantea casos de prueba
+- Crea los test necesarios con JUnit.
