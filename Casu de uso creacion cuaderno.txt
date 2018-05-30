@@ -1,0 +1,16 @@
+Nombre: Creación de cuaderno
+ID:CU-2
+Descripción: El tutor crea un cuaderno para un alumno
+Precondiciones: Se necesita que el alumno este registrado
+Curso normal:
+1. El tutor pide crear un cuaderno.
+2. El sistema le pregunta por el alumno en cuestión
+3. El tutor introduce el nombre del alumno
+4. El sistema en cuentra el alumno
+5. Si no:
+5.1 El tutor vuelve a introducir nombre de un alumno que exista
+6. Se crea el cuaderno
+7. El sistema informa al tutor de que se ha creado el cuaderno
+Postcondiciones: No
+Alternativa 1:
+5.1 El tutor cancela la creacion del cuaderno y sale

@@ -1,0 +1,13 @@
+Nombre: Añadir reseña
+ID:CU-1
+Actores: Alumno
+Precondiciones: Que el alumno esté registrado y que tenga un libro de seguimiento.
+Curso normal:
+1. El alumno solicita insertar una reseña
+2. El sistema comprueba que el alumno puede introducir una reseña.
+3. El alumno introduce la reseña
+4. El sistema guarda la reseña
+5. El sistema comunica al alumno que se ha guardado la reseña.
+
+Postcondiciones: No
+Alternativas: No 

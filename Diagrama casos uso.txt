@@ -1,0 +1,13 @@
+Realiazr el diagrama de casos de uso del siguiente supuesto:
+
+-El sistema debe permitir realizar un seguimiento de las practicas de empresa de los alumnos de fp
+
+- Hay dos tipos de usuario: alumno y tutor.
+
+- El profesor puede crear un cuaderno de seguimiento para un alumno en una empresa.
+- El profesor debe poder ver la lista de cuadernos recogidos en el sistema.
+- El profesor debe poder consultar la lista de alumnos y en caso necesario añadir alumnos nuevos
+- El profesor puede leer el contenido de los cuadernos de seguimiento.
+- El alumno debe agregar diariamente una reseña de la tarea realizada en la empresa.
+- El alumno puede modificar una reseña ya registrada
+- El alumno puede ver la lista de reseñas en forma de listado o blog.
